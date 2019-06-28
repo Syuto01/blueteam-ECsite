@@ -21,7 +21,7 @@
     <s:if test="destinationInfoDTOList!=null&&destinationInfoDTOList.size()>0">
 
 	<div class="info blueText">
-     宛先情報を選択してください。
+         宛先情報を選択してください。
 	</div>
 
 <!-- 個人情報を表示する。1行目に項目を表示する。 -->
@@ -39,12 +39,12 @@
 	 </colgroup>
       <tr>
        <th><s:label value="#"/></th>
-	   <th><s:label value="姓"/></th>
-	   <th><s:label value="名"/></th>
-	   <th><s:label value="ふりがな"/></th>
-	   <th><s:label value="住所"/></th>
-	   <th><s:label value="電話番号"/></th>
-	   <th><s:label value="メールアドレス"/></th>
+       <th><s:label value="姓"/></th>
+       <th><s:label value="名"/></th>
+       <th><s:label value="ふりがな"/></th>
+       <th><s:label value="住所"/></th>
+       <th><s:label value="電話番号"/></th>
+       <th><s:label value="メールアドレス"/></th>
       </tr>
 
 <!-- 2行目以降に登録した送り先情報を表示する。 -->
@@ -91,7 +91,7 @@
    </div>
   </s:else>
 
-<!-- 新規宛先登録ボタンは宛先情報の有無で表示切替はないが、	決済ボタンは宛先情報の有の場合のみ表示するため、コードの可読性を考慮してformを2つにする -->
+<!-- 新規宛先登録ボタンは宛先情報の有無で表示切替はないが、決済ボタンは宛先情報の有の場合のみ表示するため、コードの可読性を考慮してformを2つにする -->
   <div class="tC mt10">
    <s:form action="CreateDestinationAction">
     <s:submit value="新規宛先登録" class="submit_btn"/>
