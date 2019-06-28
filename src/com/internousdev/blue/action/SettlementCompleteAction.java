@@ -13,7 +13,7 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class SettlementCompleteAction extends ActionSupport implements SessionAware{
 	private String id;
-	private Map<String,Object> session; //決済完了のセッション(表示している時間)内容を宣言する
+	private Map<String,Object> session; //決済完了画面のセッション(表示している時間)内容を宣言する
 
 	public String execute(){
 		//sessionがタイムアウトのチェック

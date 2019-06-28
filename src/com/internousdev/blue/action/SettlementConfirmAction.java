@@ -13,7 +13,7 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class SettlementConfirmAction extends ActionSupport implements SessionAware{
 	private List<DestinationInfoDTO> destinationInfoDTOList; //DestinationInfoDTOクラスのリストを宣言
-	private Map<String,Object> session; //カートのセッション状態を宣言する
+	private Map<String,Object> session; //決済確認画面のセッション状態を宣言する
 
 	public String execute() {
 		String result=ERROR; //ログインしていない状態で初期値をERRORと宣言する

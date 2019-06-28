@@ -12,7 +12,7 @@ public class DeleteDestinationAction extends ActionSupport implements SessionAwa
 
 	private String id;
 	private List<DestinationInfoDTO> destinationInfoDTOList; //destinationInfoDTOのリストを宣言
-	private Map<String,Object> session; //カートのセッション情報を宣言する
+	private Map<String,Object> session; //決済確認画面のセッション情報を宣言する
 
 	public String execute(){
 		//sessionがタイムアウトであるかのチェック
