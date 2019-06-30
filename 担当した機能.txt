@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# myteam-ECsite
-
-(１)概要
+﻿(１)概要
 ログイン認証機能など12機能のショッピングサイトを作成
 
 (２)各機能名
@@ -35,6 +32,3 @@
 ･DeleteDestinationAction.java
 ･SettlementCompleteAction.java
 ･SettlementConfirmAction.java
-=======
-# blueteam-ECsite
->>>>>>> ab90a6f1c82ee0ebe3790f9781f2cbe27e743376
