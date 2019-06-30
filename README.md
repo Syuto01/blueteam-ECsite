@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # myteam-ECsite
 
 (１)概要
@@ -25,16 +24,13 @@
 2019/06/03～2019/06/28
 
 (５)担当した機能とファイル名
-①担当した機能
+■担当した機能
 ･宛先情報選択機能
 ･決済完了機能
-②ファイル名
+■ファイル名
 ･settlementConfirm.jsp
 ･settlementComplete.jsp
 ･settlementConfirm.js
 ･DeleteDestinationAction.java
 ･SettlementCompleteAction.java
 ･SettlementConfirmAction.java
-=======
-# blueteam-ECsite
->>>>>>> ab90a6f1c82ee0ebe3790f9781f2cbe27e743376
